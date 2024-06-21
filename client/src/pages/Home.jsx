@@ -41,15 +41,15 @@ const Home = () => {
         </div>
       </div>
       <div className="container mx-auto mt-4">
-        <h1 className="text-3xl font-bold text-center">Welcome to Sticker Shop</h1>
-        <p className="text-center mt-2">Explore our unique collection of decorative stickers.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
+        <h1 className="text-3xl font-bold text-center">Catagories </h1>
+        <p className="text-center mt-2">Look in to some of our best sticker catagories. Explore diffrent choices.</p>
+        <div className="flex mt-[20px] justify-center">
           {/* Example sticker card */}
-          <StickerCard title="Cool Sticker" price="$5.00" />
-          <StickerCard title="Awesome Sticker" price="$7.00" />
-          <StickerCard title="Funky Sticker" price="$4.00" />
-          <StickerCard title="Stylish Sticker" price="$6.00" />
+          <StickerCard title="Anime" price="$5.00" />
+          <StickerCard title="Music" price="$7.00" />
+          <StickerCard title="Sports" price="$4.00" />
         </div>
+        <div className='bg-red-900 text-white hover:bg-black hover:text-white w-[300px] h-[48px] rounded-full mr-auto ml-auto content-center text-center mt-[20px]'>Order Now</div>
       </div>
     </div>
   );
